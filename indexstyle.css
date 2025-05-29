@@ -1,20 +1,25 @@
 /* DESKTOP */
 
 header {
-  background-color: rgb(0, 255, 157);
+  background-color: #cecece;
 }
 
 main {
-  background-color: orange;
+  background-color: #cecece;
 }
 
 footer {
   background-color: yellow;
 }
 
-
-body {
-  background-color: black;
+body{
+    padding: 0.5rem 0rem;
+    font-family: Roboto, sans-serif;
+    max-width:2400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#cecece;
+    color: black;
 }
 
 .nav ul{
@@ -38,7 +43,7 @@ header {
 }
 
 body {
-  grid-column: 1 / 7;
+  grid-column: 1/8;
    grid-row:2;
 
 }
@@ -55,7 +60,7 @@ footer {
 
 
 /* MAIN GRID LAYOUT */
-.main-grid-container{
+.mainGridContainer{
     display:grid;
     grid-template-columns: 13;
 }
