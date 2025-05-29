@@ -1,35 +1,5 @@
 /* DESKTOP */
 
-/* -------------- GRID LAYOUT -------------
-/*BODY GRID LAYOUT*/
-.GridContainer {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-
-}
-header {
-  grid-column: 1 / 13;
-  grid-row: 1/3;
-  background-color: #4b4b4b;
-
-}
-
-
-main {
-  grid-column: 1 / 13;
-   grid-row: 2 / 3;
-   background-color: rgb(250, 250, 250);
-
-}
-footer {
-  grid-column: 1 / 13;
-   grid-row: 3/3;
-} */
-
-
-
-
 
 /* Logo + Topnav Section */
 .topnav {
@@ -69,16 +39,7 @@ footer {
   display: none;
 }
 
-.topnav li a{
-    display: inline;
-    float: right;
-    margin-right: auto;
-}
 
-.topnav ul{
-    text-align: right;
-
-}
 
 
 
@@ -126,6 +87,10 @@ h2,h3,h4{
 
 
 
+.thumbnails {
+  max-width: 300px;
+  max-height: auto;
+}
 
   /* MOBILE */
 
