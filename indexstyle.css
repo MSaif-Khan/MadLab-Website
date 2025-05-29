@@ -2,6 +2,7 @@
 
 header {
   background-color: #cecece;
+
 }
 
 main {
@@ -29,7 +30,7 @@ body{
 
 /*-------------- GRID LAYOUT -------------*/
 /*BODY GRID LAYOUT*/
-.GridContainer {
+.IndexGridContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -60,7 +61,7 @@ footer {
 
 
 /* MAIN GRID LAYOUT */
-.mainGridContainer{
+.indexMainGridContainer{
     display:grid;
     grid-template-columns: 13;
 }

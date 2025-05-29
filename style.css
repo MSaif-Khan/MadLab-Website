@@ -75,7 +75,7 @@ h2,h3,h4{
     max-height: auto;
 }
 
-#loc1 a, #loc2 a, #loc3 a,#loc4 a{
+.loc a{
     background-color: #f8bb61;
     border-radius:1.5rem;
     color: white;
@@ -85,12 +85,13 @@ h2,h3,h4{
     display: inline-block;
 }
 
-
-
 .thumbnails {
   max-width: 300px;
   max-height: auto;
 }
+
+
+
 
   /* MOBILE */
 
