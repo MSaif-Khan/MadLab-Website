@@ -11,14 +11,27 @@ function topNavFunction() {
 // BLOBS
 const svg = document.getElementById("organicSVG");
 const audio = document.getElementById("ambientAudio");
+const muteButton =  document.getElementById("toggleMute")
 
-function pauseTask() {
+function pauseAll() {
     svg.pauseAnimations();
     audio.pause();
   }
 
-function playTask() {
+function playAll() {
     svg.unpauseAnimations();
     audio.play();
   }
 
+function toggleMute(){
+  if (audio.muted === true) {
+    // If it is muted, unmute it
+    audio.muted = false;
+    muteButton.textContent = "Mute";
+    } 
+  else {
+    // If it's not muted, mute it
+    audio.muted = true;
+    muteButton.textContent = "Unmute"
+  }
+}

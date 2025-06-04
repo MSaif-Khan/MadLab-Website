@@ -94,7 +94,10 @@ h2,h3,h4{
   align-content: center;
 }
 
-
+.organicShape{
+  display: flex;
+  justify-content: center;
+}
   /* MOBILE */
 
 @media screen and (max-width:600px) {
