@@ -26,9 +26,18 @@ body{
 .nav ul{
     text-decoration: none;
     list-style-type: none;
+    font-size: 40px;
 }
 
 /*-------------- GRID LAYOUT -------------*/
+
+/* MAIN GRID LAYOUT */
+.indexMainGridContainer{
+    display:grid;
+    grid-template-columns: 13;
+}
+
+
 /*BODY GRID LAYOUT*/
 .IndexGridContainer {
   display: grid;
@@ -59,14 +68,4 @@ footer {
    grid-row: 3;
 }
 
-
-/* MAIN GRID LAYOUT */
-.indexMainGridContainer{
-    display:grid;
-    grid-template-columns: 13;
-}
-
-.about{
-    background-color: blanchedalmond;
-}
 
