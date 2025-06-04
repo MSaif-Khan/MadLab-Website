@@ -90,7 +90,9 @@ h2,h3,h4{
   max-height: auto;
 }
 
-
+#class {
+  align-content: center;
+}
 
 
   /* MOBILE */
