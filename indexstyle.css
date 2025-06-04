@@ -23,12 +23,25 @@ body{
     color: black;
 }
 
-.nav ul{
-    text-decoration: none;
-    list-style-type: none;
+.nav a{
+    text-decoration:none;
+    font-size: 50px;
+    color:#fffda9;
+}
+
+.nav li{
+  list-style-type:none;
 }
 
 /*-------------- GRID LAYOUT -------------*/
+
+/* MAIN GRID LAYOUT */
+.indexMainGridContainer{
+    display:grid;
+    grid-template-columns: 13;
+}
+
+
 /*BODY GRID LAYOUT*/
 .IndexGridContainer {
   display: grid;
@@ -59,14 +72,4 @@ footer {
    grid-row: 3;
 }
 
-
-/* MAIN GRID LAYOUT */
-.indexMainGridContainer{
-    display:grid;
-    grid-template-columns: 13;
-}
-
-.about{
-    background-color: blanchedalmond;
-}
 
