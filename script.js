@@ -12,14 +12,13 @@ function topNavFunction() {
 const svg = document.getElementById("organicSVG");
 const audio = document.getElementById("ambientAudio");
 
-function pauseAnimation() {
+function pauseTask() {
     svg.pauseAnimations();
     audio.pause();
-    enableMute()
   }
 
-  function playAnimation() {
+function playTask() {
     svg.unpauseAnimations();
     audio.play();
-    disableMute()
   }
+
