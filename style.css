@@ -98,6 +98,14 @@ h2,h3,h4{
   display: flex;
   justify-content: center;
 }
+
+#photoGallery img{
+    max-width: 300px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
   /* MOBILE */
 
 @media screen and (max-width:600px) {
@@ -159,10 +167,15 @@ h2,h3,h4{
         color:#40663e;
     }
 
-    h2,h3,h4{
+    h2,h4{
 
         font-family:"Montserrat", sans-serif;
         color:#4b4b4b;
+    }
+
+    h3{
+        font-family:"Montserrat", sans-serif;
+        color:#f8bb61;
     }
 
     #initial{

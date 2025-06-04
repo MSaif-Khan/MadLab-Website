@@ -23,10 +23,14 @@ body{
     color: black;
 }
 
-.nav ul{
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 40px;
+.nav a{
+    text-decoration:none;
+    font-size: 50px;
+    color:#fffda9;
+}
+
+.nav li{
+  list-style-type:none;
 }
 
 /*-------------- GRID LAYOUT -------------*/
