@@ -41,10 +41,14 @@
 
 
 
-
-
-
 /* Body of the website */
+
+main{
+  justify-content: center;
+  padding-left:175px;
+  padding-right:175px;
+}
+
 header{
     background-color: rgb(233, 233, 233);
 }
@@ -59,15 +63,15 @@ body{
 }
 
 h1{
-    font-family:"Montserrat", sans-serif;
-    size: 20px;
-    color:#40663e;
+  font-family:"Montserrat", sans-serif;
+  font-size: 60px;
+  color:#40663e;
+  line-height:0.1;
 }
 
 h2,h3,h4{
-
-    font-family:"Montserrat", sans-serif;
-    color:#4b4b4b;
+  font-family:"Montserrat", sans-serif;
+  color:#4b4b4b;
 }
 
 #Logo {
@@ -75,6 +79,7 @@ h2,h3,h4{
     max-height: auto;
 }
 
+/* LOCATION PAGE */
 .loc a{
     background-color: #f8bb61;
     border-radius:1.5rem;
@@ -94,9 +99,67 @@ h2,h3,h4{
   align-content: center;
 }
 
+
+/* ACTIVITY PAGES */
 .organicShape{
   display: flex;
   justify-content: center;
+}
+
+/* LOCATION SPECIFIC PAGES */
+
+#categoryNav li{
+  list-style-type:none;
+}
+
+#categoryNav a{
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4b4b4b;
+    list-style-type:none;
+}
+
+
+
+.bannerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bannerFlex img {
+  width: 100%;
+  height: auto;
+  max-width: 1675px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+
+.Flex-Container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Flex-Container div {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.Flex-Container div img {
+  max-height: 30px;
+  
+}
+
+#photoGallery{
+        margin-top: -20px;
+        padding-top: 80px;
+      
 }
 
 #photoGallery img{
@@ -152,6 +215,12 @@ h2,h3,h4{
 
 
     /* Body of the website */
+
+
+    main{
+        padding: 10px;
+    }
+    
     body{
         padding: 0.5rem 0rem;
         font-family: Roboto, sans-serif;
@@ -165,6 +234,7 @@ h2,h3,h4{
     h1{
         font-family:"Montserrat", sans-serif;
         color:#40663e;
+        font: 40px;
     }
 
     h2,h4{
@@ -186,9 +256,62 @@ h2,h3,h4{
     }
 
     #primary{
+        width: 100%;
         background-color: rgb(233, 233, 233);
         margin-top: -60px;
         padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
-    }}
+
+    }
+
+    /* LOCATION SPECIFIC PAGES */
+
+  #categoryNav li{
+    list-style-type:none;
+  }
+
+  #categoryNav a{
+      text-decoration:none;
+      font-weight: 500;
+      font-size: 15px;
+      color: #4b4b4b;
+      list-style-type:none;
+  }
+
+
+  #banner {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .Flex-Container {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Flex-Container div {
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .Flex-Container div img {
+    max-height: 30px;
+    max-width: auto;
+  }
+    
+    #photoGallery{
+        background-color: rgb(233, 233, 233);
+        margin-top: -20px;
+        padding-top: 80px;
+      
+    }
+  
+  
+  
+  }

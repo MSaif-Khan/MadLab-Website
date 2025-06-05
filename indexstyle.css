@@ -2,6 +2,8 @@
 
 header {
   background-color: #cecece;
+  padding-left: 30px;
+  padding-bottom: 60px;
 
 }
 
@@ -10,7 +12,7 @@ main {
 }
 
 footer {
-  background-color: yellow;
+  background-color:  #cecece;
 }
 
 body{
@@ -27,10 +29,20 @@ body{
     text-decoration:none;
     font-size: 50px;
     color:#fffda9;
+    line-height: 1.6;
+    padding-right: 20px;
 }
 
 .nav li{
   list-style-type:none;
+}
+
+
+video{
+  max-width: 600px;
+  max-height= auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*-------------- GRID LAYOUT -------------*/
@@ -40,9 +52,8 @@ body{
 .IndexGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap:0px;
-  
-} */
+  grid-gap:5px;
+} 
 
 nav {
   grid-column:1;
@@ -58,3 +69,38 @@ footer {
 }
 
 
+@media screen and (max-width:600px) {
+
+  body{
+    padding: 0.5rem 0rem;
+    font-family: Roboto, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#cecece;
+    color: black;
+  }
+  
+  
+  .nav a{
+      text-decoration:none;
+      font-size: 40px;
+      color:#fffda9;
+      padding-right: 20px;
+      line-height: 1.6;
+     
+}
+  }
+
+  .nav li{
+    list-style-type:none;
+  }
+
+  video{
+    max-width: 320px;
+ 
+    
+  
+  }
+
+
+}
